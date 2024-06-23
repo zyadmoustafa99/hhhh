@@ -2,13 +2,12 @@
 <html>
 <body onload="getlocation()">
 <iframe src="https://giphy.com/embed/pV6YOBHC48JP6Eadnr" width="480" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fifa-world-cup-pV6YOBHC48JP6Eadnr">via GIPHY</a></p>
-<h1>HTML Geolocation</h1>
 
 
 <p id="demo"></p>
 
 <script>
-const x = document.getElementById("demo");
+var x = document.getElementById("demo");
 
 function getLocation() {
   if (navigator.geolocation) {
